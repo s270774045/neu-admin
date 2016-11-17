@@ -1,0 +1,33 @@
+body {
+    background-color: #f8f8f8;
+    font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
+}
+
+/*! custom login page */
+#login-carousel {
+	padding-top:100px;
+}
+#login-carousel .image {
+	width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+.panel {
+	width: 400px;
+	height:250px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+@media only screen and (max-width: 767px) {
+#login-carousel {
+	padding-top:0px;
+}
+/* #login-box {
+	max-width: 300px;
+	top: 100px;
+	right: 50px;
+} */
+}

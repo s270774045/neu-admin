@@ -1,0 +1,11 @@
+.detail-table th, .detail-table td {
+	font-size: 0.8rem;
+}
+
+.detail-score, .detail-rating {
+	font-size: 2.4rem;
+	font-weight: bold;
+}
+.detail-section {
+	padding-bottom: 30px;
+}
