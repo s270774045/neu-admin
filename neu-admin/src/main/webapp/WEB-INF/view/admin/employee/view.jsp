@@ -72,7 +72,25 @@
 		                        </div>
 		                    </div>
 		                </div>
-		                <div class="row">
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="form-group">
+									<label for="score" class="col-sm-4 control-label">部门</label>
+									<div class="col-sm-8">
+										<input class="form-control" id="department" name="department" value="${entity.department}">
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="form-group">
+									<label for="rating" class="col-sm-4 control-label">岗位</label>
+									<div class="col-sm-8">
+										<input class="form-control" id="post" name="post" value="${entity.post}">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
 		                    <div class="col-sm-6">
 		                        <div class="form-group">
 		                            <label for="role" class="col-sm-4 control-label">照片</label>
@@ -150,10 +168,10 @@ $(function() {
 	        mimeTypes: 'image/gif,image/jpeg,image/bmp,image/png'
 	    },
 	    compress: {
-	        width: 100,
-	        height: 100,
+	        width: 160,
+	        height: 160,
 	        // 图片质量，只有type为`image/jpeg`的时候才有效。
-	        quality: 90,
+	        quality: 100,
 	        // 是否允许放大，如果想要生成小图的时候不失真，此选项应该设置为false.
 	        allowMagnify: false,
 	        // 是否允许裁剪。

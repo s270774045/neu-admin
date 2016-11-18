@@ -33,8 +33,8 @@
 							<span class="text-muted">SAP编码:</span> {{employee.sapCode}}<br>
 							<span class="text-muted">出生日期:</span> {{employee.dateOfBirth}}<br>
 							<span class="text-muted">性别:</span> {{employee.sexual_text}}<br>
-							<span class="text-muted">部门:</span> 黄骅港电务工队<br>
-							<span class="text-muted">岗位:</span> 技术站信号工<br>
+							<span class="text-muted">部门:</span> {{employee.department}}<br>
+							<span class="text-muted">岗位:</span> {{employee.post}}<br>
 							<!-- <span class="text-muted">身份证号:</span> 123456789012<br> -->
 						</div>
 					</div>
