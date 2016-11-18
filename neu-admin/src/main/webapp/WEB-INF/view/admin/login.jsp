@@ -55,14 +55,14 @@ if(window.parent!=window){
 
 <div id="login-box" class="container">
    <div class="center-block">
-       <div class="login-panel panel panel-default">
-           <div class="panel-heading">
-               <h3 class="panel-title">
+       <div class="login-panel panel panel-info">
+           <div class="panel-heading ">
+               <h3 class="panel-title text-center">
                <%-- <spring:message code="login.boxTitle" /> --%>
                                               员工培养追踪评价系统
                </h3>
            </div>
-           <div class="panel-body">
+           <div class="panel-body ">
 					<form role="form" id="loginForm" action="${ctx}/admin/login">
 						<fieldset>
 							<div class="form-group">
