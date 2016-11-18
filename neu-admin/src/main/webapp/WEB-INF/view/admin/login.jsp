@@ -63,27 +63,33 @@ if(window.parent!=window){
                </h3>
            </div>
            <div class="panel-body">
-               <form role="form" id="loginForm" action="${ctx}/admin/login">
-                   <fieldset>
-                       <div class="form-group">
-                           <input class="form-control" placeholder="<spring:message code="login.username" />" name="loginname" type="text"
-                           	value="" required data-bv-notempty-message="<spring:message code="login.requireUsername" />" autofocus />
-                       </div>
-                       <div class="form-group">
-                           <input class="form-control" placeholder="<spring:message code="login.password" />" name="password" type="password"
-                           	value="" required data-bv-notempty-message="<spring:message code="login.requirePassword" />" />
-                       </div>
-                       <div class="alert alert-danger" id="msg" style="display:none; padding:5px 15px;"></div>
-                       <div class="checkbox">
-                           <label>
-                               <input name="rememberMe" type="checkbox"><spring:message code="login.remember" />
-                           </label>
-                       </div>
-                       <!-- Change this to a button or input when using this as a form -->
-                       <button type="submit" class="btn btn-primary"><spring:message code="login.btnLogin" /></button>
-                    </fieldset>
-                </form>
-            </div>
+					<form role="form" id="loginForm" action="${ctx}/admin/login">
+						<fieldset>
+							<div class="form-group">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span> 
+									<input class="form-control" placeholder="<spring:message code="login.username" />" name="loginname" type="text" value="" required data-bv-notempty-message="<spring:message code="login.requireUsername" />" autofocus />
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>  
+									<input class="form-control " placeholder="<spring:message code="login.password" />" name="password" type="password" value="" required data-bv-notempty-message="<spring:message code="login.requirePassword" />" />
+								</div>
+							</div>
+							<div class="alert alert-danger" id="msg" style="display:none; padding:5px 15px;"></div>
+							<div class="checkbox">
+								<label> <input name="rememberMe" type="checkbox">
+								<spring:message code="login.remember" />
+								</label>
+							</div>
+							<!-- Change this to a button or input when using this as a form -->
+							<button type="submit" class="btn btn-primary">
+								<spring:message code="login.btnLogin" />
+							</button>
+						</fieldset>
+					</form>
+				</div>
         </div>
     </div>
 </div>
