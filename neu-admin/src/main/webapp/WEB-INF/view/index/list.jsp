@@ -22,6 +22,8 @@
                 <h3 ng-bind="item.employeeName"></h3>
                 <h4>SAP编号: {{item.sapCode}}</h4>
                 <p>出生日期: {{item.dateOfBirth}}</p>
+                <p>部门: {{item.department}}</p>
+                <p>岗位: {{item.post}}</p>
                 <a class="btn btn-primary pull-right" ui-sref="detail({id:item.id})">查看 <span class="glyphicon glyphicon-chevron-right"></span></a>
             </div>
         </div>
